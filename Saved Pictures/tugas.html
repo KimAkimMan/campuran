@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh HTML dengan CSS Internal, Inline, dan Eksternal</title>
+
+    <!-- Eksternal CSS -->
+    <link rel="stylesheet" href="tugas.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .internal-style {
+            background-color: lightblue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="internal-style">
+        <h1>Selamat Datang di Halaman Contoh</h1>
+    </header>
+
+    <section style="background-color: lightgreen; color: darkgreen; padding: 15px;">
+        <!-- Inline CSS -->
+        <p>Ini adalah contoh paragraf dengan Inline CSS yang diterapkan langsung pada elemen HTML.</p>
+    </section>
+
+    <section class="external-style">
+        <!-- Eksternal CSS -->
+        <p>Ini adalah contoh paragraf dengan Eksternal CSS.</p>
+    </section>
+
+</body>
+</html>

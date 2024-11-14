@@ -1,0 +1,18 @@
+/* Pengaturan gaya untuk teks di seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    color: blue;
+    font-size: 24px;
+    letter-spacing: -5px;
+}
+
+/* Gaya untuk elemen dengan eksternal CSS */
+.leftbar h2 {
+    font-size: 22px;
+    color: darkgreen;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: darkblue;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman dengan CSS Internal, Inline, dan Eksternal</title>
+
+    <!-- Eksternal CSS -->
+    <link rel="stylesheet" href="tugas.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .header {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .navigation {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navigation ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation ul li {
+            float: left;
+        }
+
+        .navigation ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navigation ul li a:hover {
+            background-color: #575757;
+        }
+
+        .main {
+            display: flex;
+            margin: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Website Header</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Left Sidebar -->
+        <aside class="leftbar" style="background-color: #f4f4f4; padding: 20px; width: 25%;">
+            <!-- Inline CSS -->
+            <h2 style="color: darkgreen;">Left Sidebar</h2>
+            <p>Ini adalah area sidebar di sebelah kiri.</p>
+        </aside>
+
+        <!-- Content -->
+        <section class="content" style="width: 75%; padding: 20px;">
+            <h2>Content Area</h2>
+            <p>Ini adalah area konten utama di halaman ini.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Website Footer</p>
+    </footer>
+
+</body>
+</html>
